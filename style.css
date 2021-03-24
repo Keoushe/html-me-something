@@ -1,0 +1,46 @@
+body {
+  background: rgb(63, 5, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(63, 5, 255, 1) 17%,
+    rgba(181, 40, 205, 1) 81%
+  );
+}
+
+.pictures {
+  width: 35%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1,
+h2,
+ol,
+li,
+p {
+  color: white;
+  text-align: center;
+}
+
+header {
+  color: white;
+}
+
+/* * {
+  align-items: center;
+} */
+
+ol,
+li {
+  text-align: center;
+  list-style-position: inside;
+  padding-bottom: 2%;
+}
+ol,
+li {
+  /* display: block; */
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
